@@ -1,0 +1,53 @@
+.padre{
+    background-color: aquamarine;
+    display: grid;
+    /*usamos esta siempre en la caja padre*/
+    grid-template-columns: 50% 20% auto auto;/*muestra 4 columnas */
+    grid-template-rows: 250px 100px auto;
+    justify-content: space-around;
+    /*center */
+    /*align-items: center;*/
+}
+.hijo{
+    background-color: goldenrod;
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    /*coloca una caja a lado del otro*/
+    /*display: inline-block;*/
+}
+.hijo1{
+    background-color: rgb(32, 218, 125);
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    /*coloca una caja a lado del otro*/
+    /*display: inline-block;*/
+    grid-column: 1/5;
+}
+.hijo2{
+    background-color: rgb(52, 86, 237);
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    /*coloca una caja a lado del otro*/
+    /*display: inline-block;*/
+    grid-column: 1/4;
+}
+.hijo4{
+    background-color: rgb(237,52,212);
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    /*coloca una caja a lado del otro*/
+    /*display: inline-block;*/
+    grid-row: 3/5;
+}
